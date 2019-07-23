@@ -1,8 +1,8 @@
 {
-  "name": "pizzahut-march-madness-api",
+  "name": "bgg-marketplace-tools-api",
   "version": "0.0.0",
-  "description": "Pizza Hut March Madness API",
-  "author": "Ivan Mayes & Michael May",
+  "description": "BGG Marketplace Tools API",
+  "author": "Ivan Mayes",
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
@@ -29,12 +29,13 @@
     "dotenv": "^6.2.0",
     "pg": "^7.8.1",
     "reflect-metadata": "^0.1.12",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
     "rimraf": "^2.6.2",
     "rxjs": "^6.2.2",
-    "ssh2-sftp-client": "^2.4.3",
-    "typeorm": "^0.2.14",
     "ts-node": "^7.0.1",
     "tsconfig-paths": "^3.5.0",
+    "typeorm": "^0.2.14",
     "typescript": "^3.0.1"
   },
   "devDependencies": {
